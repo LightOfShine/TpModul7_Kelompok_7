@@ -10,6 +10,12 @@ namespace TpModul7_Kelompok_7
             Console.WriteLine("=== PROGRAM DESERIALISASI JSON ===");
             Console.WriteLine("=== Praktikum Modul 7 - NIM 2311104049 ===\n");
 
+            // Jalankan fungsi kedua (Daftar Mata Kuliah)
+            Console.WriteLine("\n==================MENAMBAHKAN JSON DESERIALIZATON 2=====================");
+            Console.WriteLine("\n[2] MEMBACA DAFTAR MATA KULIAH");
+            KuliahMahasiswa2311104045.ReadJSON();
+            Console.WriteLine("=== Praktikum Modul 7 - NIM 2311104049 ===\n");
+
             // Jalankan fungsi pertama (Data Mahasiswa)
             Console.WriteLine("\n=============== MENAMBAHKAN JSON DESERIALIZATON 1 ==================");
             Console.WriteLine("\n[1] MEMBACA DATA MAHASISWA");
