@@ -20,13 +20,13 @@ namespace TpModul7_Kelompok_7
         public string fakultas { get; set; }
     }
 
-    public class DataMahasiswa2311104045
+    public class DataMahasiswa2311104064
     {
         public static void ReadJSON()
         {
             try
             {
-                string filePath = "tp7_1_2311104045.json";
+                string filePath = "tp7_1_2311104064.json";
 
                 if (!File.Exists(filePath))
                 {
